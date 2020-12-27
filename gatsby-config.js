@@ -9,7 +9,7 @@ module.exports = {
             options: {
                 mdx: true,
                 contentPath: 'src/decks',
-                basePath: 'slides'
+                basePath: '/'
             }
         }
     ]
