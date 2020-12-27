@@ -8,9 +8,7 @@ module.exports = {
             resolve: 'gatsby-theme-mdx-deck',
             options: {
                 mdx: true,
-                contentPath: 'src/decks',
-                basePath: 'slides'
-            }
+                contentPath: 'src/decks'            }
         }
     ]
 }
