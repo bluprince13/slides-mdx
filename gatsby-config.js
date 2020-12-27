@@ -1,6 +1,16 @@
 module.exports = {
-  siteMetadata: {
-    title: "slides",
-  },
-  plugins: [],
-};
+    siteMetadata: {
+        title: 'slides'
+    },
+    pathPrefix: `/slides`,
+    plugins: [
+        {
+            resolve: 'gatsby-theme-mdx-deck',
+            options: {
+                mdx: true,
+                contentPath: 'src/decks',
+                basePath: 'slides'
+            }
+        }
+    ]
+}
